@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>03 - Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <img src="css/game.png" style="width: 100%" />
+    <nav class="nav">
+      <a
+        href="#"
+        class="nav-item is-active"
+        active-color="orange"
+        onclick="openCapres('CAPRES_NO_1')"
+        >RPG</a
+      >
+      <a
+        href="#"
+        class="nav-item"
+        active-color="green"
+        onclick="openCapres('CAPRES_NO_2')"
+        >FPS</a
+      >
+      <a
+        href="#"
+        class="nav-item"
+        active-color="blue"
+        onclick="openCapres('CAPRES_NO_3')"
+        >MOBA</a
+      >
+      <a
+        href="#"
+        class="nav-item"
+        active-color="red"
+        onclick="openCapres('CAPRES_NO_4')"
+        >ADVENTURE</a
+      >
+      <a
+        href="#"
+        class="nav-item"
+        active-color="rebeccapurple"
+        onclick="openCapres('CAPRES_NO_5')"
+        >PROFILE</a
+      >
+      <span class="nav-indicator"></span>
+    </nav>
+    <section>
+      <div class="container w3-animate-left capres" id="CAPRES_NO_1">
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/genshin.png" />
+            </div>
+            <div class="contentBx">
+              <h3>GENSHIN IMPACT <br /><span>MIHOYO</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button" onclick="openCapres('genshin')">
+                Read More
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/baldur.png" />
+            </div>
+            <div class="contentBx">
+              <h3>BALDUR GATE 3 <br /><span>Larian Studios</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/Diablo IV.png" />
+            </div>
+            <div class="contentBx">
+              <h3>DIABLO IV <br /><span>Blizzard Entertainment</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container w3-animate-left capres" id="CAPRES_NO_2">
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/valorant.png" />
+            </div>
+            <div class="contentBx">
+              <h3>VALORANT <br /><span>RIOT GAMES</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/csgo.png" />
+            </div>
+            <div class="contentBx">
+              <h3>CSGO <br /><span>Valve Corporation</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/cod.png" />
+            </div>
+            <div class="contentBx">
+              <h3>CALL OF DUTY<br /><span>Activision</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container w3-animate-left capres" id="CAPRES_NO_3">
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/ml.png" />
+            </div>
+            <div class="contentBx">
+              <h3>MOBILE LEGEND<br /><span>MOONTON</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/DOTA.png" />
+            </div>
+            <div class="contentBx">
+              <h3>DOTA 2 <br /><span>Valve Corporation</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/aov.png" />
+            </div>
+            <div class="contentBx">
+              <h3>ARENA OF VALOR<br /><span>TIMI STUDIO</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container w3-animate-left capres" id="CAPRES_NO_4">
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/gta.png" />
+            </div>
+            <div class="contentBx">
+              <h3>GTA V<br /><span>Rockstar Games</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/assasin.png" />
+            </div>
+            <div class="contentBx">
+              <h3>Assassin's Creed<br /><span>UBISOFT</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx">
+              <img src="css/godofwar.png" />
+            </div>
+            <div class="contentBx">
+              <h3>GOD OF WAR<br /><span>Santa Monica Studio</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li>
+              <button class="button">Read More</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container w3-animate-left capres" id="CAPRES_NO_5">
+        <div class="card">
+          <div class="content">
+            <h2>MY PROFILE</h2>
+            <div class="imgBx2">
+              <img src="css/profile.jpg" alt="Person" class="card__image" />
+            </div>
+            <div class="contentBx">
+              <h3>
+                MUHAMMAD ZIDDAN ARYAN<br /><span
+                  >NIM : 10123185 || Kelas : IF-5</span
+                >
+              </h3>
+            </div>
+            <div class="icons">
+              <a
+                href="https://www.facebook.com/muhammad.z.aryan.75"
+                class="fa fa-facebook"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="https://www.instagram.com/ziddan_aryan/"
+                class="fa fa-instagram"
+                aria-hidden="true"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
